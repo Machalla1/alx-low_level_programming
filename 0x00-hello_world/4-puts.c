@@ -1,5 +1,6 @@
-#includen  <stdio.h>
-/* main - print a line using push 
+#include  <stdio.h>
+/*
+ * main - print a line using push 
  * 
  * Return: 0
  * /
