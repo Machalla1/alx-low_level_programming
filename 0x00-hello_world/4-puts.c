@@ -1,5 +1,5 @@
 #include  <stdio.h>
-/*
+/**
  * main - print a line using push
  * Return: 0
 */
