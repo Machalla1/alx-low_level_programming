@@ -6,7 +6,7 @@
 /**
  * main - main function
  *
- * Return always 0
+ * Return: always 0
  */
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (a > 0)
+	if (n > 0)
 		printf("%d is positive", n);
 	else if (n == 0)
 		printf("%d is zero", n);
@@ -24,6 +24,7 @@ int main(void)
 		printf("%d is negative", n);
 
 		printf("\n");
+
 	return (0);
 }
 
