@@ -9,9 +9,24 @@
  */
 
 int _abs(int a)
+
 {
-	if (a <= 0)
-	return (a);
-	else
-	return (-a);
+
+	int k = a;
+
+	int absvalue;
+
+
+if (k < 0)
+{
+
+	k = k * (-1);
+
 }
+
+	absvalue = k;
+
+	return (absvalue);
+
+}
+
