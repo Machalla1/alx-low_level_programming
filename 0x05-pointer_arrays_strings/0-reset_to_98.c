@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update the vlaue of a var using pointer
+ * reset_to_98 - update the vlaue of a var using pointers
  *
  * @n: int to update
  *
