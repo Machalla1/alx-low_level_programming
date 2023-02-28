@@ -9,7 +9,7 @@ void print_rev(char *s)
 {
 	int a, b;
 
-	b = 0
+	b = 0;
 
 	while (s[b] != '\0')
 		b++;
@@ -18,5 +18,5 @@ void print_rev(char *s)
 		_putchar(s[a]);
 	}
 
-	-putchar('\n')
+	_putchar('\n');
 }
