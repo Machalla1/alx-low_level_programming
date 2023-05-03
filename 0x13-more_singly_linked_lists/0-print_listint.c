@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * Print_listint - All the element of a linked list should be printed
+ * print_listint - All the element of a linked list should be printed
  *
  * @m: Print linked list type of listint_t
  *
- * Return: Total numbers of node
+ * return: Total numbers of node
  *
  */
 
@@ -16,13 +16,10 @@
 
 		while (m)
 {
-			printf("%i\n", m->n);
-			num++;
+			printf("%i\n", m->w);
 			m = m->next;
-
+			num++;
 
 }
 		return (num);
-
-
 }
