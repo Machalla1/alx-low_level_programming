@@ -14,9 +14,9 @@
 {
 		size_t num = 0;
 
-		while
+		while (m)
 {
-			printf("%i \n", m->n);
+			printf("%i\n", m->n);
 			num++;
 			m = m->next;
 
