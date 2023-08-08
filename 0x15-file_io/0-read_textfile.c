@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * read_textfile- interprete text file print to STDOUT.
- * @filename: text file to be  read
- * @letters: All number of letters to be read
+ * read_textfile- this interprete text file print to STDOUT.
+ * @filename: this is the text file to be  read
+ * @letters: this is all the  number of letters to be read
  * Return: w- real figure of bytes read and printed
  *        0 when filename is NULL or have a failed function.
  */
